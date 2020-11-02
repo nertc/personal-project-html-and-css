@@ -100,6 +100,10 @@
     padding-bottom: 5px;
 }
 
+#component1 .menu>div:not(.more) {
+    margin-bottom: 1px;
+}
+
 #component1 .menu>.more>p>.fa {
     display: inline-block;
     margin-left: 8px;
@@ -125,7 +129,7 @@
     height: 6px;
 
     position: absolute;
-    top: -55px;
+    top: -54px;
 }
 
 /* Buttons */
