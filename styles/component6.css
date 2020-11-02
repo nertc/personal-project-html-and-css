@@ -1,0 +1,263 @@
+#component6 {
+    width: 100%;
+    min-width: 1280px;
+    height: 1274px;
+
+    display: grid;
+    grid-template-columns: 1fr minmax(1061px, 1171px) 1fr;
+    grid-template-rows: 1fr 1154px;
+
+    background-color: rgba(236, 240, 241, 30%);
+}
+
+#component6 header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    width: 100%;
+    height: 44px;
+    margin-top: 90px;
+    margin-bottom: 42px;
+}
+
+#component6 header>h2 {
+    height: 100%;
+    font-size: 36px;
+    font-weight: 900;
+    color: #34495E;
+}
+
+#component6 header>h2>span {
+    font-weight: 300;
+}
+
+#component6 header>.buttons {
+    width: 82px;
+    height: 35px;
+}
+
+#component6 header button {
+    width: 35px;
+    height: 35px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #CDD9E1;
+    border-radius: 10px;
+
+    font-size: 24px;
+    color: #A1B1BC;
+}
+
+#component6 header button.left {
+    float: left;
+}
+
+#component6 header button.right {
+    float: right;
+}
+
+/* Items */
+
+#component6 main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    width: 100%;
+    height: 100%;
+}
+
+#component6 .container {
+    width: 270px;
+    height: 562px;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+#component6 .featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50px;
+
+    padding: 0 20px;
+    background-color: #E46960;
+    border-radius: 10px 10px 0 0;
+}
+
+#component6 .featured>p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+#component6 .bestSeller {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50px;
+
+    padding: 0 20px;
+    background-color: #21C2F8;
+    border-radius: 10px 10px 0 0;
+}
+
+#component6 .bestSeller>p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+#component6 .content {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 194px;
+
+    background-color: transparent;
+
+    border: 1px solid #E6E6E6;
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box;
+
+    padding: 17.5px 0px;
+}
+
+#component6 .content>* {
+    margin-left: 20px;
+}
+
+#component6 .content>h3 {
+    margin-bottom: 15px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2C3E50;
+}
+
+#component6 .content>.stars {
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 15px;
+    color: #1ABC9C;
+}
+
+#component6 .content>.stars>span {
+    color: #A1B1BC;
+}
+
+#component6 .content>.price {
+    float: left;
+    width: 80px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+
+#component6 .content>.sale {
+    width: 90px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+#component6 .content>.sale:hover {
+    width: 122px;
+}
+
+#component6 .content>.sale p {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: block;
+    border-radius: 5px;
+
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 33px;
+    color: #FFFFFF;
+
+    text-align: center;
+}
+
+#component6 .content>.sale:hover>.plus {
+    width: 45px;
+    right: 0;
+
+    background-color: #1ABC9C;
+}
+
+#component6 .content>.sale>.salePrice {
+    width: 90px;
+    left: 0;
+
+    background-color: #21C2F8;
+}
+
+#component6 .content>hr {
+    margin: 0px;
+    border: 1px solid #E6E6E6;
+    width: 100%;
+    background-color: #E6E6E6;
+    margin-bottom: 17.5px;
+}
+
+#component6 .content>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+    width: 105px;
+    height: 28px;
+    background-color: #A1B1BC;
+    border-radius: 6px;
+    margin-right: 0;
+}
+
+#component6 .content>button>p {
+    margin-left: 5px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#component6 .container:hover>.content{
+    border: none;
+    background-color: #2C3E50;
+}
+
+#component6 .container:hover>.content>h3, #component6 .container:hover>.content>.price {
+    color: #FFFFFF;
+}
+
+#component6 .container:hover button{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+#component6 .container:hover .add {
+    background-color: #1ABC9C;
+    border: none;
+}
+
+#component6 .container:hover hr{
+    opacity: 10%;
+}
