@@ -1,0 +1,163 @@
+#component1 {
+    background-color: rgba(44, 62, 80, 90%);
+    width: 100vw;
+    min-width: 1280px;
+    height: 117px;
+    display: grid;
+    grid-template-columns:
+        1fr minmax(0px, calc(1920px - 375px * 2)) 1fr;
+}
+
+#component1 .space {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 5%;
+
+    background-color: white;
+}
+
+#component1>main {
+    display: grid;
+    grid-template-columns:
+        194.09px
+        117.7fr
+        minmax(calc(759px - 30px * 6), 755px)
+        29.3fr
+        minmax(60px, 70px);
+    grid-template-rows: 1fr;
+
+    grid-column: 2 / 3;
+    width: 100%;
+    height: 95%;
+
+    position: absolute;
+    bottom: 0;
+}
+
+/* Logo */
+
+#component1 .logo {
+    grid-column: 1 / 2;
+
+    width: 194.09px;
+    height: 65px;
+
+    margin-top: 13.5%;
+}
+
+#component1 .logo>img {
+    float: left;
+    top: 11%;
+    height: 78%;
+}
+
+#component1 .logo>h1 {
+    color: #ECF0F1;
+    font-weight: 400;
+    line-height: 1em;
+    font-size: 1.5em;
+
+    height: 100%;
+    float: right;
+}
+
+#component1 .logo>h1>span {
+    line-height: 1em;
+    font-size: 1.5em;
+}
+
+#component1 .logo>h1>#fox {
+    font-weight: 900;
+}
+
+#component1 .logo>h1>#shop {
+    color: #1ABC9C;
+}
+
+/* Main Menu */
+#component1 .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: nowrap;
+
+    grid-column: 3 / 4;
+}
+
+#component1 .menu>div {
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 11px;
+}
+
+#component1 .menu>div>p {
+    float: left;
+    padding-bottom: 5px;
+}
+
+#component1 .menu>.more>p>.fa {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#component1 .menu>div:hover {
+    cursor: pointer;
+}
+
+#component1 .menu>div:hover>p {
+    color: #1ABC9C;
+}
+
+#component1 .menu>div:hover>p>span {
+    color: #FFFFFF;
+}
+
+#component1 .menu>div:hover>div {
+    background-color: #1ABC9C;
+    width: 75%;
+    height: 6px;
+
+    position: absolute;
+    top: -55px;
+}
+
+/* Buttons */
+#component1 .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 5 / 6;
+}
+
+#component1 .buttons>div {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#component1 .buttons>.basket {
+    float: left;
+
+    background-color: #1ABC9C;
+    border-radius: 50%;
+}
+
+#component1 .buttons>.search {
+    float: right;
+
+    background-color: #2C3E50;
+    border: #FFFFFF 1px solid;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
