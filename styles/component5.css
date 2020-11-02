@@ -107,7 +107,7 @@
     height: 100%;
     width: 33%;
 
-    background-color: #CCCCCC;
+    background-color: transparent;
     
     display: flex;
     flex-direction: column;
@@ -116,6 +116,8 @@
 #component5 .container>.plus {
     height: 44%;
     width: 100%;
+    
+    background-color: #CCCCCC;
 
     display: flex;
     justify-content: center;
