@@ -103,8 +103,8 @@
     border: 1px solid #EAEAEA;
     box-sizing: border-box;
     border-radius: 3px;
-
-    align-items: center;
+    
+    padding-top: 5px;
 }
 
 #component11 input::placeholder, #component11 input {
