@@ -104,7 +104,7 @@
 
 #component3 .content>h3 {
     margin-bottom: 15px;
-    width: 100%;
+    width: auto;
     font-weight: bold;
     font-size: 18px;
     color: #2C3E50;
@@ -112,7 +112,7 @@
 
 #component3 .content>.stars {
     margin-bottom: 13px;
-    width: 100%;
+    width: auto;
     font-size: 15px;
     color: #1ABC9C;
 }
@@ -122,7 +122,7 @@
 }
 
 #component3 .content>.price {
-    width: 100%;
+    width: auto;
     font-size: 20px;
     font-weight: 900;
     color: #2C3E50;
