@@ -103,8 +103,6 @@
     border: 1px solid #EAEAEA;
     box-sizing: border-box;
     border-radius: 3px;
-    
-    padding-top: 5px;
 }
 
 #component11 input::placeholder, #component11 input {
@@ -113,6 +111,7 @@
     line-height: 24px;
     color: #A1B1BC;
     padding-left: 15px;
+    padding-top: 5px;
 }
 
 #component11 button {
