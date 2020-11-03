@@ -114,6 +114,10 @@
     flex-direction: column;
 }
 
+#component5 .container:hover {
+    cursor: pointer;
+}
+
 #component5 .container>.plus {
     height: 44%;
     width: 100%;
@@ -205,4 +209,5 @@
 
 #component5 .container:hover>button {
     background-color: #1E2A37;
+    cursor: pointer;
 }

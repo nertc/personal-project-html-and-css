@@ -58,6 +58,7 @@
     background-color: #2C3E50;
     border: none;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 #component7 header button.left {
@@ -90,6 +91,10 @@
 #component7 article {
     width: 570px;
     height: 194px;
+}
+
+#component7 article:hover {
+    cursor: pointer;
 }
 
 #component7 article>* {

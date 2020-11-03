@@ -80,6 +80,12 @@
 
     background-color: #FFFFFF;
     border-radius: 10px;
+
+    border: 1px solid #E6E6E6;
+}
+
+#component6 .container:hover {
+    cursor: pointer;
 }
 
 #component6 .featured {
@@ -239,6 +245,7 @@
 
 #component6 .container:hover>.content{
     border: none;
+    border-radius: 0px;
     background-color: #2C3E50;
 }
 
