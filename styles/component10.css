@@ -1,0 +1,57 @@
+#component10 {
+    width: 100%;
+    min-width: 1280px;
+    height: 300px;
+
+    display: grid;
+    grid-template-columns: 1fr 1073px 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+
+    background-color: #34495E;
+}
+
+#component10 main {
+    height: 105px;
+    width: 100%;
+
+    grid-column: 2 / 3;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#component10 .status {
+    height: 100%;
+    width: 181px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#component10 .status * {
+    margin: 10px 0;
+}
+
+#component10 .number {
+    padding: 0;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #FFFFFF;
+    height: auto;
+
+    width: 100%;
+}
+
+#component10 .name {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
