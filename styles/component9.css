@@ -1,0 +1,268 @@
+#component9 {
+    width: 100%;
+    min-width: 1280px;
+    height: 522px;
+
+    display: grid;
+    grid-template-columns: 1fr 1170px 1fr;
+    grid-template-rows: 1fr;
+
+    background-color: rgba(236, 240, 241, 30%);
+}
+
+#component9 main {
+    width: 100%;
+    height: 100%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    padding-top: 95px;
+    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#component9 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 33px;
+    color: #34495E;
+
+    margin-bottom: 50px;
+}
+
+#component9 h2>span {
+    font-weight: 300;
+}
+
+#component9 h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #A1B1BC;
+}
+
+#component9 label:hover {
+    cursor: pointer;
+}
+
+#component9 label:hover h3 {
+    color: #34495E;
+}
+
+#component9 [type="radio"]:checked ~ label h3 {
+    font-weight: bold;
+    color: #1ABC9C;
+}
+
+#component9 [type="radio"]:checked ~ .content {
+    display: block;
+}
+
+#component9 [type="radio"] ~ .content {
+    display: none;
+}
+
+#component9 [type="radio"] {
+    display: none;
+}
+
+#component9 .content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A1B1BC;
+    line-height: 24px;
+}
+
+#component9 main label, main .content {
+    background-color: #FFFFFF;
+}
+
+/* About */
+
+#component9 .about {
+    width: 570px;
+    height: 100%;
+}
+
+#component9 .about .element {
+    height: auto;
+    width: 570px;
+    margin-bottom: 2px;
+}
+
+#component9 .about label {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    display: block;
+
+    padding-left: 15px;
+}
+
+#component9 .about label h3 {
+    float: left;
+    top: 45%;
+    
+    transform: translate(0, -50%);
+}
+
+#component9 .about label div {
+    width: 38px;
+    height: 38px;
+    float: right;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Arial', Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #999999;
+
+    border-left: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+#component9 .about .content {
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    width: 100%;
+    height: 122px;
+
+    padding: 21px 20px;
+}
+
+#component9 .about .blank {
+    width: 80px;
+    height: 80px;
+    background-color: #CCCCCC;
+    float: left;
+}
+
+#component9 .about p {
+    float: left;
+    margin: 0px 18px;
+    width: 75%;
+    height: 90%;
+}
+
+/* Services */
+
+#component9 .services {
+    width: 570px;
+    height: 100%;
+
+    min-width: 570px;
+
+    display: grid;
+    grid-template-columns: 127fr 149fr 112fr 184fr;
+    grid-template-rows: 80px 40px 206px 1fr;
+}
+
+#component9 h2 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+}
+
+#component9 .services label {
+    grid-row: 2 / 3;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 16px;
+    border: 1px solid #E7EAEA;
+    border-right: none;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#component9 .col1 {
+    grid-column: 1 / 2;
+}
+
+#component9 .col2 {
+    grid-column: 2 / 3;
+}
+
+#component9 .col3 {
+    grid-column: 3 / 4;
+}
+
+#component9 .col4 {
+    grid-column: 4 / 5;
+}
+
+#component9 .services .element {
+    position: static;
+}
+
+#component9 .services label div {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border: 1px solid #E7EAEA;
+    border-bottom: none;
+    background-color: #1ABC9C;
+    box-sizing: border-box;
+    top: -2px;
+    left: 0px;
+
+    display: none;
+}
+
+#component9 .services [type="radio"]:checked ~ label {
+    border-bottom: none;
+}
+
+#component9 .services [type="radio"]:checked ~ label div {
+    display: block;
+}
+
+#component9 .services .content {
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+    width: 570px;
+    height: auto;
+
+    border: 1px solid #E7EAEA;
+    border-top: none;
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0;
+
+    padding: 26px 16px 16px 20px;
+}
+
+#component9 .services .content img {
+    width: 60px;
+    height: 68px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#component9 .services .content p.fleft {
+    float: left;
+    height: 73px;
+    width: 80%;
+    margin-left: 25px;
+}
+
+#component9 .services .content p.clear {
+    clear: both;
+    height: 73px;
+    width: 100%;
+}
+
+#component9 .services .element.last label{
+    border-right: 1px solid #E7EAEA;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
