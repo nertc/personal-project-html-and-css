@@ -2,6 +2,7 @@
     width: 100%;
     height: 1065px;
     margin-top: 50px;
+    min-width: 1280px;
 
     display: grid;
     grid-template-columns: 1fr minmax(1080px, 1170px) 1fr;
