@@ -60,7 +60,7 @@
 
 /* Items */
 
-#component6 main {
+#component6 .main {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;

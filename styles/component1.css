@@ -19,7 +19,7 @@
     background-color: white;
 }
 
-#component1>main {
+#component1>.main {
     display: grid;
     grid-template-columns:
         194.09px

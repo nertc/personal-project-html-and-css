@@ -62,7 +62,7 @@
 
 /* Items */
 
-#component3 main {
+#component3 .main {
     display: flex;
     justify-content: space-between;
 

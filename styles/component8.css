@@ -45,7 +45,7 @@
     grid-column: 6 / 7;
 }
 
-#component8 main {
+#component8 .main {
     width: 100%;
     height: 100%;
     grid-column: 4 / 5;
@@ -59,7 +59,7 @@
     align-items: center;
 }
 
-#component8 main h2 {
+#component8 .main h2 {
     height: 36px;
     width: 100%;
     font-size: 30px;
@@ -70,11 +70,11 @@
     margin-bottom: 5px;
 }
 
-#component8 main h2>span {
+#component8 .main h2>span {
     font-weight: 300;
 }
 
-#component8 main p {
+#component8 .main p {
     width: 100%;
     height: 46px;
     white-space: pre-line;
@@ -86,7 +86,7 @@
     margin-bottom: 15px;
 }
 
-#component8 main .buttons {
+#component8 .main .buttons {
     width: 350px;
     height: 45px;
 
@@ -96,7 +96,7 @@
     margin-bottom: 80px;
 }
 
-#component8 main .buttons>* {
+#component8 .main .buttons>* {
     height: 100%;
     width: 170px;
 
@@ -106,18 +106,18 @@
     color: #FFFFFF;
 }
 
-#component8 main .buttons .more {
+#component8 .main .buttons .more {
     background-color: transparent;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
 }
 
-#component8 main .buttons .purchase {
+#component8 .main .buttons .purchase {
     background-color: #21C2F8;
     border: none;
 }
 
-#component8 main img {
+#component8 .main img {
     width: 100%;
     margin-bottom: 5px;
 }
