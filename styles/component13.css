@@ -1,0 +1,81 @@
+#component13 {
+    width: 100%;
+    min-width: 1280px;
+    height: 246px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 146fr 100fr;
+}
+
+#component13 .upper {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1116px 1fr;
+    background-color: #FFFFFF;
+}
+
+#component13 .logos {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#component13 .logos img {
+    width: 120px;
+}
+
+#component13 .bottom {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1116px 1fr;
+    background-color: #1ABC9C;
+}
+
+#component13 .text {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#component13 .text p:nth-child(even) {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+#component13 .text p:nth-child(odd) {
+    font-size: 36px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#component13 .text p:nth-child(1) {
+    transform: translate(0, 50%);
+}
+
+#component13 .text p:nth-child(3) {
+    transform: translate(0, -50%);
+}
+
+#component13 .block {
+    width: 22px;
+    height: 22px;
+
+    background-color: #1ABC9C;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, 50%) rotate(45deg);
+}
