@@ -30,7 +30,7 @@
 
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 271px 27px 271px 29px 271px 29px 271px 1fr;
+    grid-template-columns: 277px 22px 271px 29px 271px 29px 271px 1fr;
 }
 
 #component11 h2 {
@@ -71,6 +71,8 @@
     width: 100%;
 
     box-sizing: border-box;
+    white-space: nowrap;
+    overflow: visible;
 }
 
 #component11 li:not(:nth-child(7)) {
