@@ -1,0 +1,54 @@
+#component15 {
+    width: 100%;
+    min-width: 1280px;
+    height: 82px;
+
+    display: grid;
+    grid-template-columns: 1fr 1170px 1fr;
+    grid-template-rows: 1fr;
+
+    background-color: #1A1C27;
+}
+
+#component15 .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    grid-column: 2 / 3;
+}
+
+#component15 p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #A1B1BC;
+}
+
+#component15 a {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+#component15 a span {
+    font-weight: 900;
+}
+
+#component15 ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    height: 100%;
+}
+
+#component15 li {
+    font-size: 15px;
+    font-weight: 400;
+    color: #A1B1BC;
+}
+
+#component15 .chosen {
+    color: #1ABC9C;
+}
