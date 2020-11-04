@@ -1,0 +1,215 @@
+#component14 {
+    width: 100%;
+    min-width: 1280px;
+    height: 620px;
+
+    display: grid;
+    grid-template-columns: 1fr 298px 300px 300px 272px 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 90px;
+
+    background-color: #222533;
+}
+
+#component14 .logo {
+    width: 242px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+#component14 .logo img {
+    height: 100%;
+}
+
+#component14 .logo h2 {
+    height: 36px;
+    font-size: 35.69px;
+    font-weight: 400;
+    line-height: 13.77px;
+    color: #FFFFFF;
+}
+
+#component14 .logo h2 .fox {
+    font-weight: 900;
+}
+
+#component14 .logo h2 .shop {
+    color: #1ABC9C;
+}
+
+#component14 .col2 p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    margin-bottom: 30px;
+}
+
+#component14 a {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #1ABC9C;
+    text-decoration: none;
+    margin-bottom: 115px;
+    display: block;
+}
+
+#component14 form {
+    width: 90%;
+    height: 150px;
+}
+
+#component14 form h5 {
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+
+    color: #A1B1BC;
+    margin-bottom: 18px;
+}
+
+#component14 form input {
+    width: 100%;
+    height: 34px;
+    background-color: #1A1C27;
+    border: 1px solid #243443;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#component14 form input, #component14 form input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    align-items: center;
+    color: #394E63;
+    padding-left: 7px;
+    margin-bottom: 10px;
+} 
+
+#component14 form button {
+    width: 100%;
+    height: 34px;
+    background-color: #2C3E50;
+    border-radius: 5px;
+
+    box-shadow: 0 2px 0px #131D27;
+
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #A1B1BC;
+}
+
+/* Items */
+
+#component14 .col3, #component14 .col4 {
+    margin-top: 5px;
+    display: grid;
+    grid-template-rows: 45px repeat(4, 127px);
+    grid-template-columns: 273px 1fr;
+}
+
+#component14 h3 {
+    height: 29px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #FFFFFF;
+
+    grid-row: 1 / 2;
+}
+
+#component14 .item {
+    padding-top: 15px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#component14 .item:not(:nth-of-type(4)) {
+    border-bottom: 1px solid #243240;
+}
+
+#component14 .item .blank {
+    width: 85px;
+    height: 85px;
+    background-color: #F3F3F3;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+#component14 .item article {
+    float: left;
+    width: 165px;
+    height: 89px;
+    margin-left: 19px;
+}
+
+#component14 h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    height: 20px;
+    margin-bottom: 17px;
+}
+
+#component14 .stars {
+    font-size: 15px;
+    color: #1ABC9C;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+#component14 .stars span {
+    color: #A1B1BC;
+}
+
+#component14 .price {
+    font-size: 20px;
+    font-weight: 400;
+    color: #A1B1BC;
+    height: 20px;
+}
+
+#component14 .price span {
+    color: #1ABC9C;
+}
+
+/* Info */
+
+#component14 .col5{
+    margin-top: 5px;
+    display: grid;
+    grid-template-rows: 45px 110px 135px 110px;
+    grid-template-columns: 1fr;
+}
+
+#component14 .info {
+    padding-top: 15px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #243240;
+}
+
+#component14 .info p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #A1B1BC;
+}
+
+#component14 .info h4 {
+    margin-bottom: 10px;
+}
+
+#component14 .info .mailh {
+    font-size: 18px;
+}

@@ -34,3 +34,27 @@ button {
 .col4 {
     grid-column: 4 / 5;
 }
+
+.col5 {
+    grid-column: 5 / 6;
+}
+
+.row1 {
+    grid-row: 1 / 2;
+}
+
+.row2 {
+    grid-row: 2 / 3;
+}
+
+.row3 {
+    grid-row: 3 / 4;
+}
+
+.row4 {
+    grid-row: 4 / 5;
+}
+
+.row5 {
+    grid-row: 5 / 6;
+}
