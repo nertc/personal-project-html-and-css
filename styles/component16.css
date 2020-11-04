@@ -1,0 +1,220 @@
+#component16 {
+    width: 100%;
+    min-width: 1280px;
+    height: 610px;
+
+    display: grid;
+    grid-template-columns: 1fr 371px 29px 369px 31px 370px 1fr;
+    grid-template-rows: 94px 33px 41px 380px 1fr;
+
+    background-color: #1A1C27;
+}
+
+#component16 .header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#component16 .header div {
+    width: 5px;
+    height: 18px;
+    background-color: #1ABC9C;
+}
+
+#component16 .header h2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+#component16 .header h2 span {
+    font-weight: 300;
+}
+
+/* col2  */
+
+#component16 .content {
+    width: 100%;
+    height: 100%;
+}
+
+#component16 .logo h3 {
+    float: left;
+    font-size: 59.49px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#component16 .logo h3 span {
+    font-weight: 900;
+    color: #1ABC9C;
+}
+
+#component16 .logo img {
+    float: left;
+    width: 18px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#component16 .logo {
+    margin-bottom: 85px;
+}
+
+#component16 .content p {
+    clear: both;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #A1B1BC;
+    margin-bottom: 27px;
+}
+
+#component16 form {
+    width: 100%;
+    height: 50px;
+}
+
+#component16 form input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #222533;
+    border-radius: 3px;
+    align-items: center;
+    border: none;
+}
+
+#component16 form input, #component16 form input::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    color: #A1B1BC;
+    padding-left: 14px;
+    box-sizing: border-box;
+}
+
+#component16 form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #1ABC9C;
+    font-size: 24px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+/* Items */
+
+#component16 .items {
+    clear: both;
+    width: 100%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#component16 .items .container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+
+#component16 .items .blank {
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-top: 10px;
+
+    background-color: #FFFFFF;
+}
+
+#component16 .items p {
+    margin-left: 20px;
+    color: #A1B1BC;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 27px;
+    float: left;
+    width: 70%;
+}
+
+#component16 .items .plus {
+    width: 100%;
+    height: 100%;
+
+    background-color: #1ABC9C;
+    font-size: 72px;
+    font-weight: 300;
+    color: #FFFFFF;
+
+    display: none;
+}
+
+#component16 .items .container:hover .plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#component16 .items .container:hover p {
+    color: #FFFFFF;
+}
+
+#component16 .items .container:hover {
+    cursor: pointer;
+}
+
+/* Flickr */
+
+#component16 .flickr {
+    width: 100%;
+    height: 100%;
+}
+
+#component16 .grid {
+    margin-top: 7px;
+    width: 100%;
+    height: 281px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 27px;
+}
+
+#component16 .grid>div {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 3px;
+}
+
+#component16 .grid>div:hover {
+    background-color: #F8F8F8;
+}
+
+#component16 .grid>div>div {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+#component16 .grid>div:hover>div {
+    background-color: #A1B1BC;
+}
+
+#component16 .flickr a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1ABC9C;
+    text-decoration: none;
+}
