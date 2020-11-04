@@ -43,6 +43,10 @@ button {
     grid-column: 6 / 7;
 }
 
+.col7 {
+    grid-column: 7 / 8;
+}
+
 .row1 {
     grid-row: 1 / 2;
 }
